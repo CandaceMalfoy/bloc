@@ -16,9 +16,26 @@ html {
  }
  
 
+ 
+ /* Medium and small screens (640px) */
+ @media (min-width: 640px) {
+   /* Style information will go here */
+ }
+ 
+ /* Large screens (1024px) */
+ @media (min-width: 1024px) {
+   /* Style information will go here */
+ }
+ 
+  /* Medium screens (640px) */
+ @media (min-width: 640px) {
+     html { font-size: 112%; }
+ }
 
- 
- 
+ /* Large screens (1024px) */
+ @media (min-width: 1024px) {
+     html { font-size: 120%; }
+ }
 
  
  .navbar .logo {
